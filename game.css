@@ -1,0 +1,29 @@
+body {
+  background: #222;
+  margin: 0;
+  text-align: center;
+}
+
+h1,
+h3,
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+.tiles {
+  margin: 30px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 15px;
+}
+
+.tile {
+  height: 100px;
+  background: #111;
+  border: 5px solid #444;
+  cursor: pointer;
+}
